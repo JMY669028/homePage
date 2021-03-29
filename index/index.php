@@ -6,8 +6,8 @@ header('Content-Type:application/json; charset=utf-8');
 //防跨域调用
 $allow_origin = array(
 	//域名白名单
-    'https://5iux.cn',
-    'https://www.5iux.cn'
+    'http://jm669028y.gitee.io/index',
+    'http://jm669028y.gitee.io/index'
 );
 header('Access-Control-Allow-Origin:'.$allow_origin);
 header('Access-Control-Allow-Methods:POST');
